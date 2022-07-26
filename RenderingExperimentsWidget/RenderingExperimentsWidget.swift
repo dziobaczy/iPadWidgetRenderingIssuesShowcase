@@ -44,7 +44,7 @@ struct RenderingExperimentsWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        CirclesGridView()
+        HandMadeCirclesGridView()
             .padding(10)
     }
 }

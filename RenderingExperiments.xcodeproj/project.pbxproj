@@ -21,6 +21,8 @@
 		8A3A9B30288801E0006F81CF /* CirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0A28880006006F81CF /* CirclesGridView.swift */; };
 		8A7E2BEB289017E700CF7931 /* GridSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BEA289017E700CF7931 /* GridSettings.swift */; };
 		8A7E2BEC2890197E00CF7931 /* GridSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BEA289017E700CF7931 /* GridSettings.swift */; };
+		8A7E2BEE28901A2A00CF7931 /* HandMadeCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */; };
+		8A7E2BEF28901A8C00CF7931 /* HandMadeCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 		8A3A9B24288801A6006F81CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3A9B26288801A6006F81CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A7E2BEA289017E700CF7931 /* GridSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSettings.swift; sourceTree = "<group>"; };
+		8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeCirclesGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				8A3A9B0C28880007006F81CF /* Assets.xcassets */,
 				8A3A9B0E28880007006F81CF /* Preview Content */,
 				8A7E2BEA289017E700CF7931 /* GridSettings.swift */,
+				8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */,
 			);
 			path = RenderingExperiments;
 			sourceTree = "<group>";
@@ -244,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A7E2BEB289017E700CF7931 /* GridSettings.swift in Sources */,
+				8A7E2BEE28901A2A00CF7931 /* HandMadeCirclesGridView.swift in Sources */,
 				8A3A9B0B28880006006F81CF /* CirclesGridView.swift in Sources */,
 				8A3A9B28288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */,
 				8A3A9B0928880006006F81CF /* RenderingExperimentsApp.swift in Sources */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A7E2BEC2890197E00CF7931 /* GridSettings.swift in Sources */,
+				8A7E2BEF28901A8C00CF7931 /* HandMadeCirclesGridView.swift in Sources */,
 				8A3A9B27288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */,
 				8A3A9B22288801A5006F81CF /* RenderingExperimentsWidget.swift in Sources */,
 				8A3A9B30288801E0006F81CF /* CirclesGridView.swift in Sources */,
