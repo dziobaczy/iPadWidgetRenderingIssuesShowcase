@@ -23,8 +23,8 @@ struct LazyGridWidget: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             LazyGridEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("Widget Contains grid built with LazyVGrid")
+        .description("Find it under LazyGridCirclesGridView")
         .supportedFamilies([.systemLarge])
     }
 }
