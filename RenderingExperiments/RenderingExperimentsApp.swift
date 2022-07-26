@@ -11,7 +11,12 @@ import SwiftUI
 struct RenderingExperimentsApp: App {
     var body: some Scene {
         WindowGroup {
-            GridEditorView()
+            NavigationView {
+                VStack {
+                    NavigationLink("Views by hand", destination: GridEditorView())
+                    NavigationLink("LazyVGrid", destination: LazyGridCirclesGridView())
+                }
+            }
         }
     }
 }

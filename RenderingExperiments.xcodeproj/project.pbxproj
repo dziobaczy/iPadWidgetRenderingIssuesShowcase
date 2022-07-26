@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8A3A9B0928880006006F81CF /* RenderingExperimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0828880006006F81CF /* RenderingExperimentsApp.swift */; };
-		8A3A9B0B28880006006F81CF /* CirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0A28880006006F81CF /* CirclesGridView.swift */; };
+		8A3A9B0B28880006006F81CF /* GridEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0A28880006006F81CF /* GridEditorView.swift */; };
 		8A3A9B0D28880007006F81CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0C28880007006F81CF /* Assets.xcassets */; };
 		8A3A9B1028880007006F81CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0F28880007006F81CF /* Preview Assets.xcassets */; };
 		8A3A9B1D288801A5006F81CF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3A9B1C288801A5006F81CF /* WidgetKit.framework */; };
 		8A3A9B1F288801A5006F81CF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3A9B1E288801A5006F81CF /* SwiftUI.framework */; };
-		8A3A9B22288801A5006F81CF /* RenderingExperimentsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B21288801A5006F81CF /* RenderingExperimentsWidget.swift */; };
+		8A3A9B22288801A5006F81CF /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B21288801A5006F81CF /* WidgetsBundle.swift */; };
 		8A3A9B25288801A6006F81CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A9B24288801A6006F81CF /* Assets.xcassets */; };
 		8A3A9B27288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B23288801A5006F81CF /* RenderingExperimentsWidget.intentdefinition */; };
 		8A3A9B28288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B23288801A5006F81CF /* RenderingExperimentsWidget.intentdefinition */; };
 		8A3A9B2B288801A6006F81CF /* RenderingExperimentsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A3A9B1A288801A5006F81CF /* RenderingExperimentsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A3A9B30288801E0006F81CF /* CirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0A28880006006F81CF /* CirclesGridView.swift */; };
+		8A3A9B30288801E0006F81CF /* GridEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B0A28880006006F81CF /* GridEditorView.swift */; };
 		8A7E2BEB289017E700CF7931 /* GridSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BEA289017E700CF7931 /* GridSettings.swift */; };
 		8A7E2BEC2890197E00CF7931 /* GridSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BEA289017E700CF7931 /* GridSettings.swift */; };
 		8A7E2BEE28901A2A00CF7931 /* HandMadeCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */; };
 		8A7E2BEF28901A8C00CF7931 /* HandMadeCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */; };
+		8A7E2BF128901AC700CF7931 /* LazyGridCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF028901AC700CF7931 /* LazyGridCirclesGridView.swift */; };
+		8A7E2BF328901AEF00CF7931 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF228901AEF00CF7931 /* CircleView.swift */; };
+		8A7E2BF428901AF800CF7931 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF228901AEF00CF7931 /* CircleView.swift */; };
+		8A7E2BF528903A0200CF7931 /* LazyGridCirclesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF028901AC700CF7931 /* LazyGridCirclesGridView.swift */; };
+		8A7E2BFA289087BB00CF7931 /* HandMadeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF8289087B600CF7931 /* HandMadeWidget.swift */; };
+		8A7E2BFB289087C000CF7931 /* LazyVGridWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF6289087A200CF7931 /* LazyVGridWidget.swift */; };
+		8A7E2BFD289087DF00CF7931 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BFC289087DF00CF7931 /* Provider.swift */; };
+		8A7E2BFE289087FE00CF7931 /* HandMadeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF8289087B600CF7931 /* HandMadeWidget.swift */; };
+		8A7E2BFF2890880300CF7931 /* LazyVGridWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BF6289087A200CF7931 /* LazyVGridWidget.swift */; };
+		8A7E2C002890880B00CF7931 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E2BFC289087DF00CF7931 /* Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +62,23 @@
 /* Begin PBXFileReference section */
 		8A3A9B0528880006006F81CF /* RenderingExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenderingExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3A9B0828880006006F81CF /* RenderingExperimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingExperimentsApp.swift; sourceTree = "<group>"; };
-		8A3A9B0A28880006006F81CF /* CirclesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesGridView.swift; sourceTree = "<group>"; };
+		8A3A9B0A28880006006F81CF /* GridEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridEditorView.swift; sourceTree = "<group>"; };
 		8A3A9B0C28880007006F81CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3A9B0F28880007006F81CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A3A9B1A288801A5006F81CF /* RenderingExperimentsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RenderingExperimentsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3A9B1C288801A5006F81CF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		8A3A9B1E288801A5006F81CF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		8A3A9B21288801A5006F81CF /* RenderingExperimentsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingExperimentsWidget.swift; sourceTree = "<group>"; };
+		8A3A9B21288801A5006F81CF /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
 		8A3A9B23288801A5006F81CF /* RenderingExperimentsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = RenderingExperimentsWidget.intentdefinition; sourceTree = "<group>"; };
 		8A3A9B24288801A6006F81CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3A9B26288801A6006F81CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A7E2BEA289017E700CF7931 /* GridSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSettings.swift; sourceTree = "<group>"; };
 		8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeCirclesGridView.swift; sourceTree = "<group>"; };
+		8A7E2BF028901AC700CF7931 /* LazyGridCirclesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridCirclesGridView.swift; sourceTree = "<group>"; };
+		8A7E2BF228901AEF00CF7931 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8A7E2BF6289087A200CF7931 /* LazyVGridWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridWidget.swift; sourceTree = "<group>"; };
+		8A7E2BF8289087B600CF7931 /* HandMadeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeWidget.swift; sourceTree = "<group>"; };
+		8A7E2BFC289087DF00CF7931 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				8A3A9B0828880006006F81CF /* RenderingExperimentsApp.swift */,
-				8A3A9B0A28880006006F81CF /* CirclesGridView.swift */,
+				8A3A9B0A28880006006F81CF /* GridEditorView.swift */,
+				8A7E2BF228901AEF00CF7931 /* CircleView.swift */,
 				8A3A9B0C28880007006F81CF /* Assets.xcassets */,
 				8A3A9B0E28880007006F81CF /* Preview Content */,
 				8A7E2BEA289017E700CF7931 /* GridSettings.swift */,
 				8A7E2BED28901A2A00CF7931 /* HandMadeCirclesGridView.swift */,
+				8A7E2BF028901AC700CF7931 /* LazyGridCirclesGridView.swift */,
 			);
 			path = RenderingExperiments;
 			sourceTree = "<group>";
@@ -138,10 +155,13 @@
 		8A3A9B20288801A5006F81CF /* RenderingExperimentsWidget */ = {
 			isa = PBXGroup;
 			children = (
-				8A3A9B21288801A5006F81CF /* RenderingExperimentsWidget.swift */,
+				8A3A9B21288801A5006F81CF /* WidgetsBundle.swift */,
 				8A3A9B23288801A5006F81CF /* RenderingExperimentsWidget.intentdefinition */,
 				8A3A9B24288801A6006F81CF /* Assets.xcassets */,
 				8A3A9B26288801A6006F81CF /* Info.plist */,
+				8A7E2BF6289087A200CF7931 /* LazyVGridWidget.swift */,
+				8A7E2BF8289087B600CF7931 /* HandMadeWidget.swift */,
+				8A7E2BFC289087DF00CF7931 /* Provider.swift */,
 			);
 			path = RenderingExperimentsWidget;
 			sourceTree = "<group>";
@@ -247,11 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7E2BF128901AC700CF7931 /* LazyGridCirclesGridView.swift in Sources */,
 				8A7E2BEB289017E700CF7931 /* GridSettings.swift in Sources */,
 				8A7E2BEE28901A2A00CF7931 /* HandMadeCirclesGridView.swift in Sources */,
-				8A3A9B0B28880006006F81CF /* CirclesGridView.swift in Sources */,
+				8A3A9B0B28880006006F81CF /* GridEditorView.swift in Sources */,
+				8A7E2BFD289087DF00CF7931 /* Provider.swift in Sources */,
 				8A3A9B28288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */,
+				8A7E2BFF2890880300CF7931 /* LazyVGridWidget.swift in Sources */,
+				8A7E2BF328901AEF00CF7931 /* CircleView.swift in Sources */,
 				8A3A9B0928880006006F81CF /* RenderingExperimentsApp.swift in Sources */,
+				8A7E2BFE289087FE00CF7931 /* HandMadeWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7E2BF428901AF800CF7931 /* CircleView.swift in Sources */,
+				8A7E2BFB289087C000CF7931 /* LazyVGridWidget.swift in Sources */,
 				8A7E2BEC2890197E00CF7931 /* GridSettings.swift in Sources */,
+				8A7E2BF528903A0200CF7931 /* LazyGridCirclesGridView.swift in Sources */,
 				8A7E2BEF28901A8C00CF7931 /* HandMadeCirclesGridView.swift in Sources */,
 				8A3A9B27288801A6006F81CF /* RenderingExperimentsWidget.intentdefinition in Sources */,
-				8A3A9B22288801A5006F81CF /* RenderingExperimentsWidget.swift in Sources */,
-				8A3A9B30288801E0006F81CF /* CirclesGridView.swift in Sources */,
+				8A7E2BFA289087BB00CF7931 /* HandMadeWidget.swift in Sources */,
+				8A3A9B22288801A5006F81CF /* WidgetsBundle.swift in Sources */,
+				8A7E2C002890880B00CF7931 /* Provider.swift in Sources */,
+				8A3A9B30288801E0006F81CF /* GridEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

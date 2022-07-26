@@ -34,23 +34,3 @@ struct GridEditorView: View {
     }
 
 }
-
-struct MementoMoriCircleViewModel {
-    let haveBeenReached: Bool = false
-}
-
-struct CircleView: View {
-
-    let viewModel: MementoMoriCircleViewModel = .init()
-    @Environment(\.gridItemSize) var gridItemSize
-
-    var body: some View {
-        Circle()
-            .frame(width: gridItemSize, height: gridItemSize)
-            .foregroundColor(viewModel.haveBeenReached
-                             ? .black
-                             : .gray
-            )
-    }
-
-}
